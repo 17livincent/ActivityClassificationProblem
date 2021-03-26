@@ -1,0 +1,20 @@
+{
+    "files": [
+        "test_body_acc_y.csv",
+        "test_body_gyro_y.csv",
+        "train_body_acc_y.csv",
+        "train_body_gyro_y.csv"
+    ],
+    "steps": [
+        {
+            "name": "moving_avg_smoother",
+            "inputs": [
+                "2"
+            ]
+        },
+        {
+            "name": "dif_trans",
+            "inputs": []
+        }
+    ]
+}

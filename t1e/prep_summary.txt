@@ -1,0 +1,22 @@
+{
+    "files": [
+        "test_body_gyro_z.csv",
+        "train_body_gyro_z.csv"
+    ],
+    "steps": [
+        {
+            "name": "moving_avg_smoother",
+            "inputs": [
+                "2"
+            ]
+        },
+        {
+            "name": "y-j",
+            "inputs": []
+        },
+        {
+            "name": "dif_trans",
+            "inputs": []
+        }
+    ]
+}
